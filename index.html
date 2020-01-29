@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-	<meta charset="utf-8">
-	<title>カレンダー配布</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-	<div id="title">
-		<h1>情シス　カレンダー配布大会2019</h1>
-	</div>
-	<div id="rem">抽選人数を入力してSTARTを押してください</div>
-	<div class="slot">	
-		<div id="panel">
-			<img src="main.png" width="100px" height="100px;">
-		</div>
-		<div id="stop" class="inactive">STOP</div>	
-		<div id="start" class="">START</div>	
-	</div>
+    <head>
+        <meta charset="utf-8">
+        <title>カレンダー配布</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div id="title">
+            <h1>カレンダー配布大会</h1>
+        </div>
+        <div id="rem">抽選人数を入力してSTARTを押してください</div>
+        <div class="slot">
+            <div id="panel">
+                <img src="main.png" width="100px" height="100px;">
+            </div>
+            <div id="stop" class="inactive">STOP</div>
+            <div id="start" class="">START</div>
+        </div>
 
-<div class="footer">
+        <div class="footer">
 
-	<form id="fm">
-        <label for="textForm">抽選人数: </label>
-        <input type="text" id="textForm">
+            <form id="fm">
+                <label for="textForm">抽選人数: </label>
+                <input type="text" id="textForm">
 
-        <button id="button">入力</button>
-	</form>
+                <button id="button">入力</button>
+            </form>
 
-	<form id="fm1">
-		<label for="textForm2">抽選から除く番号: </label>
-		<input type="text" id="textForm2">
+            <form id="fm1">
+                <label for="textForm2">抽選から除く番号: </label>
+                <input type="text" id="textForm2">
 
-		<button id="except_button">入力</button>
-	</form>
+                <button id="except_button">入力</button>
+            </form>
 
-	<form id="fm2">
-		<label for="textForm3">のこった人で抽選: </label>
-		<input type="text" id="textForm3">
+            <form id="fm2">
+                <label for="textForm3">のこった人で抽選: </label>
+                <input type="text" id="textForm3">
 
-		<button id="custom_button">入力</button>
-	</form>
+                <button id="custom_button">入力</button>
+            </form>
 
-	<div id="counts">
-		<div id="nty">
-			残り抽選回数 <p id="resultForm"></p>
-		</div>
-	    <div id="ity">
-	    	今の結果 <p id="ima"></p>	
-	    </div>
-	    <div id="idk">
-	    	今までに出たくじ<p id="deta"></p>	
-	    </div>	
- 	</div>
- 	<a href="" style="text-decoration: none"><font color="#fff";><div id="reset">RESET</div></font></a>
-</div>
-    
+            <div id="counts">
+                <div id="nty">
+                    残り抽選回数 <p id="resultForm"></p>
+                </div>
+                <div id="ity">
+                    今の結果 <p id="ima"></p>
+                </div>
+                <div id="idk">
+                    今までに出たくじ<p id="deta"></p>
+                </div>
+            </div>
+            <a href="" style="text-decoration: none"><font color="#fff";><div id="reset">RESET</div></font></a>
+        </div>
 
 
-	<script src="js/main.js"></script>
-</body>
+
+        <script src="js/main.js"></script>
+    </body>
 </html>
