@@ -1,2 +1,2 @@
 # lottery-machine
-For your party.
+For your party...!
